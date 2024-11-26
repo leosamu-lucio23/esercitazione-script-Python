@@ -1,0 +1,99 @@
+"""
+x = 1 # Qui inserisci il numero
+if x > 3:
+    print("x Maggiore di 3")
+else:
+    print("x Inferiore a 3")
+print("Fine programma")
+"""
+
+"""
+x = 2
+y = 5
+if x >= y: # Qui inserisci il numero
+    print("x uguale ad y")
+else:
+    print("x diverso a y")
+print("Fine programma")
+"""
+
+"""
+età = 19 # Qui inserisci il numero
+if età < 13:
+    print("Bambino")
+elif 13 <= età < 18:
+    print("Adolescente")
+else:
+    print("Adulto")
+"""
+
+"""
+frutta = ["mela","banana","uva","arancia","anguria","melone","pompelmo","kiwi","mandarino"] # Qui aggiungi gli elementi
+if "mela" and "pompelmo" and "arancia" in frutta:
+    print("Sono nella lista della frutta")
+else:
+    print("Non sono presenti")
+"""
+
+"""
+password = "securepass" #Qui inesrisci il codice
+if password == "pippo":
+    print("Accesso consentito")
+else:
+    print("Accesso negato")
+"""
+
+"""
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+"""
+
+"""
+parola = "stop" # Inserire la parola d'ordine
+while parola != "stop":
+    parola = input("Inserire una parola: ")
+"""
+
+"""
+for i in range (10):
+    print("chicco")
+"""
+
+"""
+nomi = ["Mario", "Luigi", "Marcello"]
+for nome in nomi:
+    print(nome)
+"""
+
+"""
+parola = "ciao"
+for carattere in parola:
+    print(carattere)
+"""
+
+"""
+import random
+
+numero = random.randint(-10,100) #serve per generare dei numeri casuali
+print (numero)
+"""
+
+
+import random
+
+numero = random.randint(-10,100)
+numero1 = random.randint(-10,100)
+
+print (numero)
+if numero > 10:
+    print("bene")
+else:
+    print("male")
+
+print (numero1)
+if numero > 10:
+    print("ci stà")
+else:
+    print("bho")
